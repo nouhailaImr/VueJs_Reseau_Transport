@@ -29,9 +29,7 @@
             </button>
           </div>
           <div class="form-group">
-            <p class="text-center">
-              Vous n'avez pas de compte ?
-              <router-link to="/register">S'inscrire</router-link>
+            <p class="text-center">Vous n'avez pas de compte ?<router-link to="/register">S'inscrire</router-link>
             </p>
           </div>
         </div>
