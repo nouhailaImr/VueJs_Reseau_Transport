@@ -1,9 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
-import firebase from 'firebase'
 import router from './router'
-import store from './store'
+import firebase from 'firebase'
+import store from './store/store.js'
 
+
+Vue.config.productionTip = false
 const firebaseConfig = {
   apiKey: "AIzaSyB0-6drDoEvdriq76L7Bicb9Hm_8bwAJcE",
   authDomain: "reseau-transport.firebaseapp.com",
@@ -18,7 +20,14 @@ firebase.initializeApp(firebaseConfig);
 Vue.config.productionTip = false
 
 new Vue({
-  router,
+
+  el:'#app',
   store,
+  router,
   render: h => h(App)
-}).$mount('#app')
+
+})
+
+
+
+

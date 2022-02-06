@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place de la Ligue Arabe",
+        "Distance": "",
+        "id": "P1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.803420543670654,
+          35.76979304535238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place Roudani - Nejma",
+        "id": "P2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.800309181213379,
+          35.77538150923812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place d'Helvetie",
+        "id": "P3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.791275501251221,
+          35.7722304299168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place Hamama",
+        "id": "P4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.798292160034179,
+          35.77465033068701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place Attabari",
+        "id": "P5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.798753499984741,
+          35.77181259786828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place Louis",
+        "id": "P6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.802251100540161,
+          35.77194317061927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place Yoused Bnou Tachafine",
+        "id": "P7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.802497863769531,
+          35.776199724883064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place Mohammed VI",
+        "id": "P8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.799129009246826,
+          35.777505370708404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place Sidi Mohamed Ben Abdellah",
+        "id": "P9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.808591842651367,
+          35.77041980851801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place Route N1",
+        "id": "P10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.80826997756958,
+          35.76685067447143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place Tétouan",
+        "id": "P11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.799322128295898,
+          35.76631093782065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place Abattoir",
+        "id": "P12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7881855964660645,
+          35.76974081486562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place d'Espagne",
+        "Distance": "",
+        "id": "P13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.786983966827393,
+          35.77242193553868
+        ]
+      }
+    }
+  ]
+}
