@@ -143,7 +143,7 @@
                 </table>
                 <div>
                     <p class="h5">Résultats et Interprétation:</p>
-                    <p>to add</p>
+                    <p>Les indices topologiques montrent que le réseau est d'une longeur basse à moyenne avec 13 Noeuds et 14 Liens. On remarque aussi que l'indice d'éloignement est d'une valeur basse ce qui montre l'efficacité du réseau.</p>
                 </div>
             </div>
         </div>

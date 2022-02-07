@@ -11,15 +11,15 @@
           <div v-if="err" class="alert alert-danger" role="alert">
             {{ err }}
           </div>
-          <div class="form-group">
-            <label>Email</label>
+          <div class="form-group mb-2">
+            <label style="font-size:14px" class="mb-1">Email</label>
             <input type="email" id="email" class="form-control" v-model="email" placeholder="Email" />
           </div>
-          <div class="form-group">
-            <label>Password</label>
+          <div class="form-group mb-4">
+            <label style="font-size:14px" class="mb-1">Password</label>
             <input type="password" id="password" v-model="password" class="form-control" placeholder="Password" />
           </div>
-          <div class="form-group">
+          <div class="form-group mb-2 d-grid">
             <button v-if="!xhrRequest" class="btn btn-success btn-block">
               Connexion
             </button>
@@ -83,7 +83,6 @@ body{
   min-height: 100vh;
   display: flex;
   font-weight: 400;
-  
   font-family: 'Fira Sans',sans-serif;
 }
 h1,h2,h3,h4,h5,h6,label,span {

@@ -1,0 +1,1008 @@
+{
+    "R1": {
+        "nom": "Route N1",
+        "08h": [
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+            {
+                "name": "Pers",
+                "value": 727
+            },
+            {
+                "name": "Taxi",
+                "value": 132
+            },
+            {
+                "name": "Bus",
+                "value": 4
+            },
+            {
+                "name": "Ouvr",
+                "value": 4
+            },
+            {
+                "name": "Serv",
+                "value": 45
+            }
+        ],
+        "18h": [
+        
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ]
+    },
+    "R2": {
+        "nom": "Ave. Sidi Mohamed Ben Abdellah",
+        "08h": [
+           
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+            
+            {
+                "name": "Pers",
+                "value": 590
+            },
+            {
+                "name": "Taxi",
+                "value": 132
+            },
+            {
+                "name": "Bus",
+                "value": 13
+            },
+            {
+                "name": "Ouvr",
+                "value": 15
+            },
+            {
+                "name": "Serv",
+                "value": 13
+            }
+        ],
+        "18h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ]
+    },
+    "R3": {
+        "nom": "Route N1",
+        "08h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+           
+            {
+                "name": "Pers",
+                "value": 727
+            },
+            {
+                "name": "Taxi",
+                "value": 132
+            },
+            {
+                "name": "Bus",
+                "value": 4
+            },
+            {
+                "name": "Ouvr",
+                "value": 4
+            },
+            {
+                "name": "Serv",
+                "value": 45
+            }
+        ],
+        "18h": [
+           
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ]
+    },
+    "R4": {
+        "nom": "Ave. Ludwig Van Beethoven",
+        "08h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+            
+            {
+                "name": "Pers",
+                "value": 201
+            },
+            {
+                "name": "Taxi",
+                "value": 6
+            },
+            {
+                "name": "Bus",
+                "value": 0
+            },
+            {
+                "name": "Ouvr",
+                "value": 3
+            },
+            {
+                "name": "Serv",
+                "value": 0
+            }
+        ],
+        "18h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ]
+    },
+    "R5": {
+        "nom": "Ave. Mohammed V",
+        "08h": [
+           
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+            
+            {
+                "name": "Pers",
+                "value": 465
+            },
+            {
+                "name": "Taxi",
+                "value": 88
+            },
+            {
+                "name": "Bus",
+                "value": 4
+            },
+            {
+                "name": "Ouvr",
+                "value": 6
+            },
+            {
+                "name": "Serv",
+                "value": 15
+            }
+        ],
+        "18h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ]
+    },
+    "R6": {
+        "nom": "Ave. Ludwig Van Beethoven",
+        "08h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+            
+            {
+                "name": "Pers",
+                "value": 201
+            },
+            {
+                "name": "Taxi",
+                "value": 6
+            },
+            {
+                "name": "Bus",
+                "value": 0
+            },
+            {
+                "name": "Ouvr",
+                "value": 3
+            },
+            {
+                "name": "Serv",
+                "value": 0
+            }
+        ],
+        "18h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ]
+    },
+    "R7": {
+        "nom": "Ave. Mohammed V",
+        "08h": [
+           
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+            
+            {
+                "name": "Pers",
+                "value": 465
+            },
+            {
+                "name": "Taxi",
+                "value": 88
+            },
+            {
+                "name": "Bus",
+                "value": 4
+            },
+            {
+                "name": "Ouvr",
+                "value": 6
+            },
+            {
+                "name": "Serv",
+                "value": 15
+            }
+        ],
+        "18h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ]
+    },
+    "R8": {
+        "nom": "Ave Mohammed V",
+        "08h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+           
+            {
+                "name": "Pers",
+                "value": 292
+            },
+            {
+                "name": "Taxi",
+                "value": 72
+            },
+            {
+                "name": "Bus",
+                "value": 3
+            },
+            {
+                "name": "Ouvr",
+                "value": 1
+            },
+            {
+                "name": "Serv",
+                "value": 18
+            }
+        ],
+        "18h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ]
+    },
+    "R9": {
+        "nom": "Ave. Espagne",
+        "08h": [
+           
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+           
+            {
+                "name": "Pers",
+                "value": 601
+            },
+            {
+                "name": "Taxi",
+                "value": 156
+            },
+            {
+                "name": "Bus",
+                "value": 13
+            },
+            {
+                "name": "Ouvr",
+                "value": 13
+            },
+            {
+                "name": "Serv",
+                "value": 37
+            }
+        ],
+        "18h": [
+           
+            {
+                "name": "Pers",
+                "value": 709
+            },
+            {
+                "name": "Taxi",
+                "value": 190
+            },
+            {
+                "name": "Bus",
+                "value": 13
+            },
+            {
+                "name": "Ouvr",
+                "value": 48
+            },
+            {
+                "name": "Serv",
+                "value": 23
+            }
+        ]
+    },
+    "R10": {
+        "nom": "Route de L'Abattoir",
+        "08h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+           
+            {
+                "name": "Pers",
+                "value": 357
+            },
+            {
+                "name": "Taxi",
+                "value": 51
+            },
+            {
+                "name": "Bus",
+                "value": 12
+            },
+            {
+                "name": "Ouvr",
+                "value": 17
+            },
+            {
+                "name": "Serv",
+                "value": 18
+            }
+        ],
+        "18h": [
+            
+            {
+                "name": "Pers",
+                "value": 377
+            },
+            {
+                "name": "Taxi",
+                "value": 63
+            },
+            {
+                "name": "Bus",
+                "value": 10
+            },
+            {
+                "name": "Ouvr",
+                "value": 29
+            },
+            {
+                "name": "Serv",
+                "value": 26
+            }
+        ]
+    },
+    "R11": {
+        "nom": "Route N2",
+        "08h": [
+           
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+           
+            {
+                "name": "Pers",
+                "value": 651
+            },
+            {
+                "name": "Taxi",
+                "value": 190
+            },
+            {
+                "name": "Bus",
+                "value": 6
+            },
+            {
+                "name": "Ouvr",
+                "value": 24
+            },
+            {
+                "name": "Serv",
+                "value": 33
+            }
+        ],
+        "18h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ]
+    },
+    "R12": {
+        "nom": "Ave. Idriss 1er",
+        "08h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+            
+            {
+                "name": "Pers",
+                "value": 473
+            },
+            {
+                "name": "Taxi",
+                "value": 116
+            },
+            {
+                "name": "Bus",
+                "value": 10
+            },
+            {
+                "name": "Ouvr",
+                "value": 12
+            },
+            {
+                "name": "Serv",
+                "value": 13
+            }
+        ],
+        "18h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ]
+    },
+    "R13": {
+        "nom": "Rue Abi Jarir Tabari",
+        "08h": [
+           
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+           
+            {
+                "name": "Pers",
+                "value": 415
+            },
+            {
+                "name": "Taxi",
+                "value": 110
+            },
+            {
+                "name": "Bus",
+                "value": 10
+            },
+            {
+                "name": "Ouvr",
+                "value": 18
+            },
+            {
+                "name": "Serv",
+                "value": 19
+            }
+        ],
+        "18h": [
+            
+            {
+                "name": "Pers",
+                "value": 492
+            },
+            {
+                "name": "Taxi",
+                "value": 182
+            },
+            {
+                "name": "Bus",
+                "value": 7
+            },
+            {
+                "name": "Ouvr",
+                "value": 11
+            },
+            {
+                "name": "Serv",
+                "value": 23
+            }
+        ]
+    },
+    "R14": {
+        "nom": "Rue Abi Jarir Tabari",
+        "08h": [
+            
+            {
+                "name": "Pers",
+                "value": 370
+            },
+            {
+                "name": "Taxi",
+                "value": 66
+            },
+            {
+                "name": "Bus",
+                "value": 1
+            },
+            {
+                "name": "Ouvr",
+                "value": 14
+            },
+            {
+                "name": "Serv",
+                "value": 8
+            }
+        ],
+        "12h": [
+            
+            {
+                "name": "Pers",
+                "value": 415
+            },
+            {
+                "name": "Taxi",
+                "value": 110
+            },
+            {
+                "name": "Bus",
+                "value": 10
+            },
+            {
+                "name": "Ouvr",
+                "value": 18
+            },
+            {
+                "name": "Serv",
+                "value": 19
+            }
+        ],
+        "18h": [
+           
+            {
+                "name": "Pers",
+                "value": 492
+            },
+            {
+                "name": "Taxi",
+                "value": 182
+            },
+            {
+                "name": "Bus",
+                "value": 7
+            },
+            {
+                "name": "Ouvr",
+                "value": 11
+            },
+            {
+                "name": "Serv",
+                "value": 23
+            }
+        ]
+    }
+}

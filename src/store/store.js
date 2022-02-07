@@ -12,8 +12,9 @@ export default new Vuex.Store({
       map:true,
 
       //Map values
-      time:"08h",
+      time:"12h",
       category:"Total",
+      idRoad:"R9"
       
   },
   mutations: {
@@ -47,6 +48,9 @@ export default new Vuex.Store({
   },
   changeCat(state,value){
     state.category = value
+  },
+  changeId(state,value){
+    state.idRoad = value
   },
   },
   actions: {}

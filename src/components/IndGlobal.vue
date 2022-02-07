@@ -66,7 +66,8 @@
                 </table>
                 <div>
                     <p class="h5">Résultats et Interprétation:</p>
-                    <p>to add</p>
+                    <p>La connexité dans un réseau mesure le degré de fragmentation en composants principales. Puisque le réseau à une composante connexe et les indices de connexité simple et pondéré sont à 100%. On remarque que notre réseau est bien connexe.</p>
+                    <p>La connectivité dans un réseau mesure la densité et la variété des relations possibles directs ou indirects entre les sommets d'un graphe. L'indice de connectivité simple est supérieure à 1, ce qui montre l'existence de circuits dans un graphe (2 cycles considérant le nombre cyclomatique). Notre réseau est 17.94% connecté.</p>
                 </div>
             </div>
         </div>

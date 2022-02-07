@@ -1,23 +1,23 @@
 <template>
 <div class="auth-wrapper2">
     <div class="auth-inner">
-<form id="signup-form" @submit.prevent="signupRequest">
-    <div class="text-center mb-4">
+<form id="signup-form" style="font-family: 'Fira Sans'" @submit.prevent="signupRequest">
+    <div class="text-center  mb-4">
         <h3>Créer un compte</h3>
     </div>
-    <div class="form-group">
-        <input type="text" id="first_name" v-model= "first_name" class="form-control from-control-lg" placeholder="Prenom">
+    <div class="form-group mb-3">
+        <input type="text"  id="first_name" v-model= "first_name" class="form-control form-control-sm" placeholder="Prenom">
     </div>
-    <div class="form-group">
-        <input type="text" id="last_name" v-model= "last_name" class="form-control from-control-lg" placeholder="Nom">
+    <div class="form-group mb-3">
+        <input type="text" id="last_name" v-model= "last_name" class="form-control form-control-sm" placeholder="Nom">
     </div>
-    <div class="form-group">
-        <input type="email" id="email" v-model= "email" class="form-control from-control-lg" placeholder="Adresse mail">
+    <div class="form-group mb-3">
+        <input type="email" id="email" v-model= "email" class="form-control form-control-sm" placeholder="Adresse mail">
     </div>
-    <div class="form-group">
-    <input type="password" id="password" v-model="password" class="form-control from-control-lg" placeholder="Mot de passe">
+    <div class="form-group mb-3">
+    <input type="password" id="password" v-model="password" class="form-control form-control-sm" placeholder="Mot de passe">
     </div>
-    <div class="form-group">
+    <div class="form-group d-grid mb-3">
         <button v-if="! xhrRequest" class="btn btn-success btn-block "> S'inscrire </button>
         <button v-if="xhrRequest" class="btn btn-success btn-block">
             <span class="spinner-border spinner-border-sm"> </span>
@@ -78,7 +78,6 @@ background-image: url('../assets/3.jpg');
   min-height: 100vh;
   display: flex;
   font-weight: 400;
-  
   font-family: 'Fira Sans',sans-serif;
 }
 h1,h2,h3,h4,h5,h6,label,span {

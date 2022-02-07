@@ -31,7 +31,7 @@
                     grid-row-end: 3;">
 
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" v-model="catPicked" value="Total">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" v-model="catPicked" value="Total" checked>
               <label class="form-check-label" for="inlineRadio1">Total</label>
             </div>
             <div class="form-check form-check-inline">
@@ -53,7 +53,22 @@
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" v-model="catPicked" value="Serv">
               <label class="form-check-label" for="inlineRadio3">Services</label>
-            </div>        
+            </div> 
+          
+               
+        </div>
+        <div style="grid-column-start: 3;
+                    grid-column-end: 4;
+                    grid-row-start: 1;
+                    grid-row-end: 3;
+                    display:grid
+                    align-items:center"
+                    >
+          <a href="/" class="text-decoration-none" v-on:click='setGraphOne()'>
+            <span style="font-size: 2em;">
+                <i class="fas fa-chevron-circle-right"></i>
+            </span>
+            </a>    
         </div>
       </div>
       <div id="graph-one" class="cell cell-graph-one"></div>
@@ -74,7 +89,8 @@ import prp_points from '../assets/data/points.json'
 import prp_roads from '../assets/data/roads.json'
 import sub_points from '../assets/data/sub_points.json'
 import sub_roads from '../assets/data/sub_roads.json'
-
+import dataOne from '../assets/data/graphOne.json'
+import dataTwo from '../assets/data/graphTwo.json'
 
 
 
@@ -84,11 +100,51 @@ export default {
   data(){
     return{
       map: null,
-      temps:1
+      temps:1,
+      id:"R1",
+      chartOne:null,
     }
   },
   methods:{
-
+      setGraphOne(){
+          this.charOne.setOption({
+            title: {
+              text: 'Flux de transport',
+              subtext: dataOne[this.$store.state.idRoad]["nom"]
+            },
+            tooltip: {
+              trigger: 'axis',
+              axisPointer: {
+                type: 'shadow'
+              }
+            },
+            legend: {
+              left: "right",
+            },
+            grid: {
+              left: '3%',
+              right: '10%',
+              bottom: '4%',
+              containLabel: true
+            },
+            xAxis: {
+              type: 'value',
+            },
+            yAxis: {
+              type: 'category',
+              data: ['08AM', '12PM', '06PM']
+            },
+            series: [
+              {
+                name: 'Flux',
+                type: 'bar',
+                data: [dataOne[this.$store.state.idRoad][this.$store.state.category][0]["value"],
+                dataOne[this.$store.state.idRoad][this.$store.state.category][1]["value"],
+                dataOne[this.$store.state.idRoad][this.$store.state.category][2]["value"]]
+              },
+            ]
+          }, false, true)
+      }
   },
   computed:{
 
@@ -122,7 +178,7 @@ export default {
 
 
     var grad = new smoothGradient.Spectrum("#1E9600", "#FFF200", "#FF0000");
-    
+    var self = this;
 
     function onEachFeature(feature, layer) {
     // does this feature have a property named popupContent?
@@ -133,9 +189,13 @@ export default {
     }
 
     function onEachRoad(feature, layer) {
+      layer.on("click", function (e) {
+              self.$store.commit("changeId", e.target.feature.properties.id );
+              console.log(e.target.feature.properties.id)
+      });
     // does this feature have a property named popupContent?
       if (feature.properties && feature.properties.name) {
-          layer.bindPopup(feature.properties.name);
+          layer.bindPopup(feature.properties.name +"\n Flux:"+ feature.properties.data[self.$store.state.time][self.$store.state.category]);
       }
     }
 
@@ -204,7 +264,7 @@ export default {
         onEachFeature: onEachRoad,
         style: function (feature) {
         return {
-         "color": getColor(feature.properties.data["12h"]["Bus"]*10),
+         "color": getColor(feature.properties.data[self.$store.state.time][self.$store.state.category]/10),
          "weight": 10,
          "opacity": 1,
         }}
@@ -222,12 +282,12 @@ export default {
     ////////////////////////////////////////////////////
     //graph one creation
     var chartOneDom = document.getElementById('graph-one');
-    var chartOne = echarts.init(chartOneDom);
+    this.chartOne = echarts.init(chartOneDom);
     var optionOne;
     optionOne = {
       title: {
         text: 'Flux de transport',
-        subtext: "Route de L'Abattoir"
+        subtext: dataOne[self.$store.state.idRoad]["nom"]
       },
       tooltip: {
         trigger: 'axis',
@@ -249,18 +309,20 @@ export default {
       },
       yAxis: {
         type: 'category',
-        data: ['08AM', '12PM', '06PM']
+        data: ['08h', '12h', '18h']
       },
       series: [
         {
-          name: '8AM',
+          name: 'Flux',
           type: 'bar',
-          data: [459, 455, 505]
+          data: [dataOne[self.$store.state.idRoad][self.$store.state.category][0]["value"],
+                dataOne[self.$store.state.idRoad][self.$store.state.category][1]["value"],
+                dataOne[self.$store.state.idRoad][self.$store.state.category][2]["value"]]
         },
       ]
     };
 
-    optionOne && chartOne.setOption(optionOne);
+    optionOne && this.chartOne.setOption(optionOne);
 
     //////////////////////////////
     //graph two creation
@@ -270,8 +332,8 @@ export default {
 
     optionTwo = {
       title: {
-        text: 'Referer of a Website',
-        subtext: 'Fake Data',
+        text: 'Catégories des transports',
+        subtext: dataOne[self.$store.state.idRoad]["nom"],
         left: 'center'
       },
       tooltip: {
@@ -283,7 +345,7 @@ export default {
       },
       series: [
         {
-          name: 'Access From',
+          name: 'Nombre de flux',
           type: 'pie',
           radius: ['20%', '40%'],
           avoidLabelOverlap: false,
@@ -301,13 +363,7 @@ export default {
           labelLine: {
             show: false
           },
-          data: [
-            { value: 357, name: 'Personnal' },
-            { value: 51, name: 'Taxi' },
-            { value: 12, name: 'Bus' },
-            { value: 17, name: 'Ouvrier' },
-            { value: 18, name: 'Service' }
-          ]
+          data: dataTwo[self.$store.state.idRoad][self.$store.state.time]
         }
       ]
     };
@@ -371,7 +427,7 @@ export default {
     gap: 5px;
     display: grid;
     grid-template-rows:auto auto;
-    grid-template-columns:30% auto;
+    grid-template-columns:30% auto 10%;
   }
   .cell-graph-one{
     padding:1px;
