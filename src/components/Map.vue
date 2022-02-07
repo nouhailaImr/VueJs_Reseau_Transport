@@ -226,7 +226,8 @@ export default {
     var optionOne;
     optionOne = {
       title: {
-        text: 'World Population'
+        text: 'Flux de transport',
+        subtext: "Route de L'Abattoir"
       },
       tooltip: {
         trigger: 'axis',
@@ -254,7 +255,7 @@ export default {
         {
           name: '8AM',
           type: 'bar',
-          data: [18203, 23489, 29034]
+          data: [459, 455, 505]
         },
       ]
     };
@@ -301,11 +302,11 @@ export default {
             show: false
           },
           data: [
-            { value: 1048, name: 'Personnal' },
-            { value: 735, name: 'Taxi' },
-            { value: 580, name: 'Bus' },
-            { value: 484, name: 'Ouvrier' },
-            { value: 300, name: 'Service' }
+            { value: 357, name: 'Personnal' },
+            { value: 51, name: 'Taxi' },
+            { value: 12, name: 'Bus' },
+            { value: 17, name: 'Ouvrier' },
+            { value: 18, name: 'Service' }
           ]
         }
       ]

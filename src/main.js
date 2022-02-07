@@ -16,6 +16,7 @@ const firebaseConfig = {
   measurementId: "G-FE7Q5K1LTN"
 };
 
+
 firebase.initializeApp(firebaseConfig);
 Vue.config.productionTip = false
 

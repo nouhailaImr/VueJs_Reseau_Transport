@@ -65,7 +65,7 @@ export default {
         .then(
           () => {
             v.xhrRequest = false;
-            this.$router.replace("Home");
+            this.$router.replace("/");
           },
           (error) => {
             v.xhrRequest = false;
